@@ -17,7 +17,7 @@ fetch("toteutus.JSON")
                 + "<p>" + obj.nimet.join(", ") + "</p>"
                 + "<p>" + obj.kesto + "</p>"
                 + "<p>" + obj.viikkot + "</p><br>"
-                + "<p><img src=" + obj.kuva + " style=width:100%; height:300px;></p>";
+                + '<p><img src="' + obj.kuva + '" style="width:100%; height:300px;"></p>';
                 
 
                 document.getElementById("vastaus").innerHTML = tiedot;
